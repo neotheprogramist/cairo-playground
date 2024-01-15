@@ -17,3 +17,6 @@
     ```bash
     scarb cairo-run
     ```
+
+## Results
+`cargo run --release 200000 > src/gen.cairo && scarb cairo-run` - pass
