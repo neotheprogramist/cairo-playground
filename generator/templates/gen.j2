@@ -1,0 +1,12 @@
+impl Felt252Div of Div<felt252> {
+    fn div(lhs: felt252, rhs: felt252) -> felt252 {
+        (Into::<felt252, u256>::into(lhs) / Into::<felt252, u256>::into(rhs)).try_into().unwrap()
+    }
+}
+
+fn f() -> felt252 {
+    {% for i in 0..n %}
+    let value = 1 / 1;{% endfor %}
+
+    value
+}
