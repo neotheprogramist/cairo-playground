@@ -1,5 +1,5 @@
 [package]
-name = "too_many_assignments"
+name = "cairo_playground"
 version = "0.1.0"
 edition = "2023_10"
 
