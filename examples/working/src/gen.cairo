@@ -260,6 +260,8 @@ fn f() -> felt252 {
     let value = 1 / 1;
     let value = 1 / 1;
     let value = 1 / 1;
+
+    // If you uncomment this line it will fail in runtime
     // let value = 1 / 1;
 
     value
