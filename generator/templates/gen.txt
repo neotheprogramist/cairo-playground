@@ -1,10 +1,9 @@
 fn f() -> felt252 {
     let a = 2;
     let value0 = 1;
-
-    {% for i in 0..n %}let value{{i + 1}} = value{{i}} * a;
+    {% for i in 0..n %}
+    let value{{i + 1}} = value{{i}} * a;
     {% endfor %}
-
     value{{n}}
 }
 
