@@ -31,3 +31,6 @@ Cargo.lock
 
 # Logs
 **/log/
+
+# Generated files
+src/gen.cairo
