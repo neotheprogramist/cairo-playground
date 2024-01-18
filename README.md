@@ -1,13 +1,9 @@
-## Running the Project
+## How to Run the Project
 
-1. Generate the Cairo file by running the following command. This will create a `gen.cairo` file in the `src` directory. The `20` is the number of `pow` statements you want to generate. You can replace `20` with any number you want.
+Follow the steps below to run the project:
 
-   ```bash
-   cargo run --release 20 > src/gen.cairo
-   ```
+1. Execute the command `scarb cairo-run`. At this point, everything should work well and the program should return 1.
 
-2. Run the Cairo file with `scarb`:
+2. Open the file `src/gen.cairo` and uncomment line `265`.
 
-   ```bash
-   scarb cairo-run
-   ```
+3. Execute the command `scarb cairo-run` again. This time, the program will fail and return an error message: `Error: #3585->#3586: Got 'Offset overflow' error while moving [3]`.
